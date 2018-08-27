@@ -33,13 +33,17 @@ if(command === "movie-this") {
 };
 
 //spotify-this-song (Spotify API) should pull this information:
-function spotifyThis(song) {
+function spotifyThis() {
     // if a song title isn't selected, default The Sign by Ace of Base
+    if(!search) {
+		search = "The Sign Ace of Base";
+	}
+
 	spotify.search({ type: "track", query: search }, function(error, data) {
         if(error) {
             console.log(error);
-        }
-	    else {
+        } 
+        else {
             console.log(
                 chalk.yellow.bold("-------------Spotify-This-Song---------------"),
                 chalk.yellow.bold("\nArtist(s):    ") + data.tracks.items[0].artists[0].name,
@@ -53,11 +57,15 @@ function spotifyThis(song) {
 };
 
 //movie-this (OMDb API) should pull this information:
-function movieThis(movie) {
+function movieThis() {
     // if a movie title isn't entered, default movie info for Mr. Nobody
+    if(!search) {
+		search = "mr+nobody";
+    }
+    
     request(movieUrl, function(error, response, body){
         if(error) {
-            console.log(error);
+            console.log(chalk.cyan.bold("Please make another selection."));
         }
         else if(!error && response.statusCode === 200) {
             console.log(
@@ -78,7 +86,7 @@ function movieThis(movie) {
 function concertThis() {
     request(bandUrl, function(error, response, events) {
         if(error) {
-            console.log(error);
+            console.log(chalk.magenta.bold("Please make another selection."));
         }
         else {
             console.log(
@@ -91,12 +99,16 @@ function concertThis() {
             );  
         };
     });
-    //Concert Date
 };
 
-//function doThis() {
-//
-//    fs.readFile("random.txt", "utf8", function(error, data) { 
-//    
-//	});
-//}
+function doThis() {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        var dataArr = data.split(',')
+
+        if(dataArr.length == 2) {
+            pick(dataArr[0], dataArr[1]);
+        } else if(dataArr.length == 1) {
+            pick(dataArr[0]);
+        }
+    });
+};
