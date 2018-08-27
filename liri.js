@@ -8,7 +8,7 @@ var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 var command = process.argv[2];
 var search = process.argv.slice(3).join(" ");
-var bandUrl = "https://rest.bandsintown.com/artists/" + search + "/events?app_id=codingbootcamp";
+var bandUrl = "https://rest.bandsintown.com/artists/" + search + "/events?app_id=0e11a75281d05bf867da26007a4d3970";
 var movieUrl = "https://www.omdbapi.com/?t=" + search + "&y=&plot=short&apikey=trilogy";
 
 if(command === "movie-this") {
@@ -32,15 +32,6 @@ if(command === "movie-this") {
     );
 };
 
-
-//concert-this (Bandsintown API) should pull this information:
-function concertThis(concert) {
-    //Band Name
-    //Concert Venue
-    //Venue Location
-    //Concert Date
-};
-
 //spotify-this-song (Spotify API) should pull this information:
 function spotifyThis(song) {
     // if a song title isn't selected, default The Sign by Ace of Base
@@ -49,15 +40,15 @@ function spotifyThis(song) {
             console.log(error);
         }
 	    else {
-                console.log(
-                    chalk.yellow.bold("-------------Spotify-This-Song---------------"),
-                    chalk.yellow.bold("\nArtist(s):    ") + data.tracks.items[0].artists[0].name,
-                    chalk.yellow.bold("\nSong Title:    ") + data.tracks.items[0].name, 
-                    chalk.yellow.bold("\nPreview Link: ") + data.tracks.items[0].preview_url, 
-                    chalk.yellow.bold("\nAlbum:        ") + data.tracks.items[0].album.name, 
-                    chalk.yellow.bold("\n---------------------------------------------")
-                );
-	      };	
+            console.log(
+                chalk.yellow.bold("-------------Spotify-This-Song---------------"),
+                chalk.yellow.bold("\nArtist(s):    ") + data.tracks.items[0].artists[0].name,
+                chalk.yellow.bold("\nSong Title:    ") + data.tracks.items[0].name, 
+                chalk.yellow.bold("\nPreview Link: ") + data.tracks.items[0].preview_url, 
+                chalk.yellow.bold("\nAlbum:        ") + data.tracks.items[0].album.name, 
+                chalk.yellow.bold("\n---------------------------------------------")
+            );
+	    };	
 	});
 };
 
@@ -81,6 +72,26 @@ function movieThis(movie) {
             );
         };
     });
+};
+
+//concert-this (Bandsintown API) should pull this information:
+function concertThis() {
+    request(bandUrl, function(error, response, events) {
+        if(error) {
+            console.log(error);
+        }
+        else {
+            console.log(
+                chalk.magenta.bold("---------------Concert-This------------------"), 
+                chalk.magenta.bold("\nBand Name: ") + JSON.parse(events)[0].lineup[0],
+                chalk.magenta.bold("\nConcert Venue: ") + JSON.parse(events)[0].venue.name,
+                chalk.magenta.bold("\nLocation: ") + JSON.parse(events)[0].venue.city + ", " + JSON.parse(events)[0].venue.region + ", " + JSON.parse(events)[0].venue.country,
+                chalk.magenta.bold("\nConcert Date: ") + JSON.parse(events)[0].datetime,
+                chalk.magenta.bold("\n---------------------------------------------"),
+            );  
+        };
+    });
+    //Concert Date
 };
 
 //function doThis() {
