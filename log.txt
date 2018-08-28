@@ -45,4 +45,52 @@
 [35m[1mConcert Venue: [22m[39mGlobal Event Center at WinStar World Casino and Resort[35m[1m[22m[39m
 [35m[1mLocation: [22m[39mThackerville, United States[35m[1m[22m[39m
 [35m[1mConcert Date: [22m[39m12/10/18[35m[1m[22m[39m
-[35m[1m---------------------------------------------[22m[39m
+[35m[1m---------------------------------------------[22m[39m[36m[1m---------------Movie-This------------------[22m[39m[36m[1m[22m[39m
+[36m[1mMovie Title: [22m[39mEdward Scissorhands[36m[1m[22m[39m
+[36m[1mYear of release: [22m[39m1990[36m[1m[22m[39m
+[36m[1mIMDB Rating: [22m[39m7.9/10[36m[1m[22m[39m
+[36m[1mRotten Tomatoes Score: [22m[39m90%[36m[1m[22m[39m
+[36m[1mThis film was released in the following Countries: [22m[39mUSA[36m[1m[22m[39m
+[36m[1mThis film is available in the following Languages: [22m[39mEnglish[36m[1m[22m[39m
+[36m[1mMovie Summary: [22m[39mA gentle man, with scissors for hands, is brought into a new community after living in isolation.[36m[1m[22m[39m
+[36m[1mStarring: [22m[39mJohnny Depp, Winona Ryder, Dianne Wiest, Anthony Michael Hall[36m[1m[22m[39m
+[36m[1m--------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mThe Beach Boys[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mMinnesota State Fair[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mSaint Paul, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39mInvalid date[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mEvanescence[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mIsleta Amphitheater[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mAlbuquerque, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39mInvalid date[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mKings of Leon[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mGlobal Event Center at WinStar World Casino and Resort[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mThackerville, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m12/10/18[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mAce of Base[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mThe Sign[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mThe Sign (US Album) [Remastered][33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[36m[1m---------------Movie-This------------------[22m[39m[36m[1m[22m[39m
+[36m[1mMovie Title: [22m[39mMr. Nobody[36m[1m[22m[39m
+[36m[1mYear of release: [22m[39m2009[36m[1m[22m[39m
+[36m[1mIMDB Rating: [22m[39m7.9/10[36m[1m[22m[39m
+[36m[1mRotten Tomatoes Score: [22m[39m66%[36m[1m[22m[39m
+[36m[1mThis film was released in the following Countries: [22m[39mBelgium, Germany, Canada, France, USA, UK[36m[1m[22m[39m
+[36m[1mThis film is available in the following Languages: [22m[39mEnglish, Mohawk[36m[1m[22m[39m
+[36m[1mMovie Summary: [22m[39mA boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.[36m[1m[22m[39m
+[36m[1mStarring: [22m[39mJared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham[36m[1m[22m[39m
+[36m[1m--------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mHeart[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mWhat About Love?[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mnull[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mHeart[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mBackstreet Boys[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mI Want It That Way[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mThe Hits--Chapter One[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m
