@@ -37,13 +37,15 @@ function spotifyThis() {
     // if a song title isn't selected, default The Sign by Ace of Base
     if(!search) {
 		search = "The Sign Ace of Base";
-	}
+	};
 
 	spotify.search({ type: "track", query: search }, function(error, data) {
         if(error) {
+            console.log(chalk.yellow.bold("Please check spelling or make another selection."));
             console.log(error);
+            return
         } 
-        else {
+        else if(!error) {
             console.log(
                 chalk.yellow.bold("-------------Spotify-This-Song---------------"),
                 chalk.yellow.bold("\nArtist(s):    ") + data.tracks.items[0].artists[0].name,
@@ -52,7 +54,7 @@ function spotifyThis() {
                 chalk.yellow.bold("\nAlbum:        ") + data.tracks.items[0].album.name, 
                 chalk.yellow.bold("\n---------------------------------------------")
             );
-	    };	
+	    };
 	});
 };
 
@@ -60,12 +62,15 @@ function spotifyThis() {
 function movieThis() {
     // if a movie title isn't entered, default movie info for Mr. Nobody
     if(!search) {
-		search = "mr+nobody";
-    }
+        search = "Mr Nobody";
+        
+    };
     
     request(movieUrl, function(error, response, body){
         if(error) {
-            console.log(chalk.cyan.bold("Please make another selection."));
+            console.log(chalk.cyan.bold("Please check spelling or make another selection."));
+            console.log(error);
+            return
         }
         else if(!error && response.statusCode === 200) {
             console.log(
@@ -86,9 +91,11 @@ function movieThis() {
 function concertThis() {
     request(bandUrl, function(error, response, events) {
         if(error) {
-            console.log(chalk.magenta.bold("Please make another selection."));
+            console.log(chalk.magenta.bold("Please check spelling or make another selection."));
+            console.log(error);
+            return
         }
-        else {
+        else if(!error && response.statusCode === 200) {
             console.log(
                 chalk.magenta.bold("---------------Concert-This------------------"), 
                 chalk.magenta.bold("\nBand Name: ") + JSON.parse(events)[0].lineup[0],
@@ -103,12 +110,23 @@ function concertThis() {
 
 function doThis() {
     fs.readFile("random.txt", "utf8", function(error, data) {
-        var dataArr = data.split(',')
+  		if (error) {
+    		return console.log(error);
+          }
+          data = data.split(",");
+          var newCommand;
+          var newSearch;
 
-        if(dataArr.length == 2) {
-            pick(dataArr[0], dataArr[1]);
-        } else if(dataArr.length == 1) {
-            pick(dataArr[0]);
-        }
-    });
+          if(data.length == 2) {
+              newCommand = data[0];
+              newSearch = data[1];
+              //console.log(newCommand);
+              //console.log(newSearch);
+          }
+
+          if(newCommand === "spotify-this-song") {
+              search = newSearch; 
+              spotifyThis();
+          }
+ 	});
 };
