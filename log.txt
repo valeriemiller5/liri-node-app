@@ -40,4 +40,9 @@
 [35m[1mConcert Venue: [22m[39mUB Center for the Arts[35m[1m[22m[39m
 [35m[1mLocation: [22m[39mBuffalo, United States[35m[1m[22m[39m
 [35m[1mConcert Date: [22m[39m2018-09-20T19:30:00[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mKings of Leon[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mGlobal Event Center at WinStar World Casino and Resort[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mThackerville, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m12/10/18[35m[1m[22m[39m
 [35m[1m---------------------------------------------[22m[39m
