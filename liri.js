@@ -46,14 +46,18 @@ function spotifyThis() {
             return
         } 
         else if(!error) {
-            console.log(
-                chalk.yellow.bold("-------------Spotify-This-Song---------------"),
-                chalk.yellow.bold("\nArtist(s):    ") + data.tracks.items[0].artists[0].name,
-                chalk.yellow.bold("\nSong Title:    ") + data.tracks.items[0].name, 
-                chalk.yellow.bold("\nPreview Link: ") + data.tracks.items[0].preview_url, 
-                chalk.yellow.bold("\nAlbum:        ") + data.tracks.items[0].album.name, 
+            var song = 
+                chalk.yellow.bold("-------------Spotify-This-Song---------------") +
+                chalk.yellow.bold("\nArtist(s):    ") + data.tracks.items[0].artists[0].name +
+                chalk.yellow.bold("\nSong Title:    ") + data.tracks.items[0].name + 
+                chalk.yellow.bold("\nPreview Link: ") + data.tracks.items[0].preview_url + 
+                chalk.yellow.bold("\nAlbum:        ") + data.tracks.items[0].album.name + 
                 chalk.yellow.bold("\n---------------------------------------------")
-            );
+            fs.appendFile("log.txt", song, function (err) {
+                if (err) throw err;
+                console.log(song);
+                console.log(chalk.blueBright("This has been logged!"));
+            });
 	    };
 	});
 };
@@ -63,18 +67,24 @@ function movieThis() {
     request(movieUrl, function(error, response, body){
         if (search === "") {
             // if a movie title isn't entered, default movie info for Mr. Nobody
-            console.log(
-                chalk.cyan.bold("---------------Movie-This------------------"), 
-                chalk.cyan.bold("\nMovie Title: ") + "Mr. Nobody", 
-                chalk.cyan.bold("\nYear of release: ") + "2009", 
-                chalk.cyan.bold("\nIMDB Rating: ") + "7.9/10", 
-                chalk.cyan.bold("\nRotten Tomatoes Score: ") + "66%", 
-                chalk.cyan.bold("\nThis film was released in the following Countries: ") + "Belgium, Germany, Canada, France, USA, UK", 
-                chalk.cyan.bold("\nThis film is available in the following Languages: ") + JSON.parse(body).Language, 
-                chalk.cyan.bold("\nMovie Summary: ") + "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.", 
-                chalk.cyan.bold("\nStarring: ") + "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham", 
+            // got error message when requesting movie info from OMDb for Mr. Nobody
+            var movieDefault = 
+                chalk.cyan.bold("---------------Movie-This------------------") + 
+                chalk.cyan.bold("\nMovie Title: ") + "Mr. Nobody" + 
+                chalk.cyan.bold("\nYear of release: ") + "2009" + 
+                chalk.cyan.bold("\nIMDB Rating: ") + "7.9/10" + 
+                chalk.cyan.bold("\nRotten Tomatoes Score: ") + "66%" + 
+                chalk.cyan.bold("\nThis film was released in the following Countries: ") + "Belgium, Germany, Canada, France, USA, UK" + 
+                chalk.cyan.bold("\nThis film is available in the following Languages: ") + "English, Mohawk" + 
+                chalk.cyan.bold("\nMovie Summary: ") + "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible." + 
+                chalk.cyan.bold("\nStarring: ") + "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham" + 
                 chalk.cyan.bold("\n--------------------------------------------")
-            );
+        
+            fs.appendFile("log.txt", movieDefault, function (err) {
+                if (err) throw err;
+                console.log(movieDefault);
+                console.log(chalk.blueBright("This has been logged!"));
+              });
         }
         else if(error) {
             console.log(chalk.cyan.bold("Please check spelling or make another selection."));
@@ -82,16 +92,23 @@ function movieThis() {
             return
         }
         else if(!error && response.statusCode === 200) {
-            console.log(
-            chalk.cyan.bold("---------------Movie-This------------------"), 
-            chalk.cyan.bold("\nMovie Title: ") + JSON.parse(body).Title, 
-            chalk.cyan.bold("\nYear of release: ") + JSON.parse(body).Year, chalk.cyan.bold("\nIMDB Rating: ") + JSON.parse(body).Ratings[0].Value, chalk.cyan.bold("\nRotten Tomatoes Score: ") + JSON.parse(body).Ratings[1].Value, 
-            chalk.cyan.bold("\nThis film was released in the following Countries: ") + JSON.parse(body).Country, 
-            chalk.cyan.bold("\nThis film is available in the following Languages: ") + JSON.parse(body).Language, 
-            chalk.cyan.bold("\nMovie Summary: ") + JSON.parse(body).Plot, 
-            chalk.cyan.bold("\nStarring: ") + JSON.parse(body).Actors, 
-            chalk.cyan.bold("\n--------------------------------------------")
-            );
+            var movie = 
+                chalk.cyan.bold("---------------Movie-This------------------") + 
+                chalk.cyan.bold("\nMovie Title: ") + JSON.parse(body).Title + 
+                chalk.cyan.bold("\nYear of release: ") + JSON.parse(body).Year + 
+                chalk.cyan.bold("\nIMDB Rating: ") + JSON.parse(body).Ratings[0].Value + 
+                chalk.cyan.bold("\nRotten Tomatoes Score: ") + JSON.parse(body).Ratings[1].Value + 
+                chalk.cyan.bold("\nThis film was released in the following Countries: ") + JSON.parse(body).Country + 
+                chalk.cyan.bold("\nThis film is available in the following Languages: ") + JSON.parse(body).Language + 
+                chalk.cyan.bold("\nMovie Summary: ") + JSON.parse(body).Plot + 
+                chalk.cyan.bold("\nStarring: ") + JSON.parse(body).Actors + 
+                chalk.cyan.bold("\n--------------------------------------------")
+
+            fs.appendFile("log.txt", movie, function (err) {
+                if (err) throw err;
+                console.log(movie);
+                console.log(chalk.blueBright("This has been logged!"));
+            });
         };
     });
 };
@@ -105,14 +122,19 @@ function concertThis() {
             return
         }
         else if(!error && response.statusCode === 200) {
-            console.log(
-                chalk.magenta.bold("---------------Concert-This------------------"), 
-                chalk.magenta.bold("\nBand Name: ") + JSON.parse(events)[0].lineup[0],
-                chalk.magenta.bold("\nConcert Venue: ") + JSON.parse(events)[0].venue.name,
-                chalk.magenta.bold("\nLocation: ") + JSON.parse(events)[0].venue.city + ", " + JSON.parse(events)[0].venue.region + ", " + JSON.parse(events)[0].venue.country,
-                chalk.magenta.bold("\nConcert Date: ") + JSON.parse(events)[0].datetime,
-                chalk.magenta.bold("\n---------------------------------------------"),
-            );  
+            var event = 
+                chalk.magenta.bold("---------------Concert-This------------------") + 
+                chalk.magenta.bold("\nBand Name: ") + JSON.parse(events)[0].lineup[0] +
+                chalk.magenta.bold("\nConcert Venue: ") + JSON.parse(events)[0].venue.name +
+                chalk.magenta.bold("\nLocation: ") + JSON.parse(events)[0].venue.city + ", " + JSON.parse(events)[0].venue.country +
+                chalk.magenta.bold("\nConcert Date: ") + JSON.parse(events)[0].datetime +
+                chalk.magenta.bold("\n---------------------------------------------")
+    
+            fs.appendFile("log.txt", event, function (err) {
+                if (err) throw err;
+                console.log(event);
+                console.log(chalk.blueBright("This has been logged!"));
+            });  
         };
     });
 };
