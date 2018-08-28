@@ -60,14 +60,23 @@ function spotifyThis() {
 
 //movie-this (OMDb API) should pull this information:
 function movieThis() {
-    // if a movie title isn't entered, default movie info for Mr. Nobody
-    if(!search) {
-        search = "Mr Nobody";
-        
-    };
-    
     request(movieUrl, function(error, response, body){
-        if(error) {
+        if (search === "") {
+            // if a movie title isn't entered, default movie info for Mr. Nobody
+            console.log(
+                chalk.cyan.bold("---------------Movie-This------------------"), 
+                chalk.cyan.bold("\nMovie Title: ") + "Mr. Nobody", 
+                chalk.cyan.bold("\nYear of release: ") + "2009", 
+                chalk.cyan.bold("\nIMDB Rating: ") + "7.9/10", 
+                chalk.cyan.bold("\nRotten Tomatoes Score: ") + "66%", 
+                chalk.cyan.bold("\nThis film was released in the following Countries: ") + "Belgium, Germany, Canada, France, USA, UK", 
+                chalk.cyan.bold("\nThis film is available in the following Languages: ") + JSON.parse(body).Language, 
+                chalk.cyan.bold("\nMovie Summary: ") + "A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.", 
+                chalk.cyan.bold("\nStarring: ") + "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham", 
+                chalk.cyan.bold("\n--------------------------------------------")
+            );
+        }
+        else if(error) {
             console.log(chalk.cyan.bold("Please check spelling or make another selection."));
             console.log(error);
             return
