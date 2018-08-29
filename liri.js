@@ -124,14 +124,14 @@ function concertThis() {
         }
         else if(!error && response.statusCode === 200) {
             var concertDate = JSON.parse(events)[0].datetime;
-            var dateFormat = "YYYY-DD-MMThh:mm:ss";
+            var dateFormat = "";
             var convertedDate = moment(concertDate, dateFormat);
             var event = 
                 chalk.magenta.bold("---------------Concert-This------------------") + 
                 chalk.magenta.bold("\nBand Name: ") + JSON.parse(events)[0].lineup[0] +
                 chalk.magenta.bold("\nConcert Venue: ") + JSON.parse(events)[0].venue.name +
                 chalk.magenta.bold("\nLocation: ") + JSON.parse(events)[0].venue.city + ", " + JSON.parse(events)[0].venue.country +
-                chalk.magenta.bold("\nConcert Date: ") + moment(convertedDate).format("MM/DD/YY") +
+                chalk.magenta.bold("\nConcert Date: ") + moment(convertedDate).format("MM/DD/YYYY") +
                 chalk.magenta.bold("\n---------------------------------------------")
     
             fs.appendFile("log.txt", event, function (err) {

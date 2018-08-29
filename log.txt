@@ -93,4 +93,53 @@
 [33m[1mSong Title:    [22m[39mI Want It That Way[33m[1m[22m[39m
 [33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
 [33m[1mAlbum:        [22m[39mThe Hits--Chapter One[33m[1m[22m[39m
-[33m[1m---------------------------------------------[22m[39m
+[33m[1m---------------------------------------------[22m[39m[36m[1m---------------Movie-This------------------[22m[39m[36m[1m[22m[39m
+[36m[1mMovie Title: [22m[39mCloud Atlas[36m[1m[22m[39m
+[36m[1mYear of release: [22m[39m2012[36m[1m[22m[39m
+[36m[1mIMDB Rating: [22m[39m7.5/10[36m[1m[22m[39m
+[36m[1mRotten Tomatoes Score: [22m[39m66%[36m[1m[22m[39m
+[36m[1mThis film was released in the following Countries: [22m[39mGermany, USA, Hong Kong, Singapore[36m[1m[22m[39m
+[36m[1mThis film is available in the following Languages: [22m[39mEnglish, Spanish, Ukrainian[36m[1m[22m[39m
+[36m[1mMovie Summary: [22m[39mAn exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.[36m[1m[22m[39m
+[36m[1mStarring: [22m[39mTom Hanks, Halle Berry, Jim Broadbent, Hugo Weaving[36m[1m[22m[39m
+[36m[1m--------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mImagine Dragons[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mEvolve World Tour[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mMoscow, Russia[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39mInvalid date[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mCyndi Lauper[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mGirls Just Want to Have Fun[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/7a91e696b3f362ff96b3c9dfc3c6d4a34127459b?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mShe's So Unusual[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mKings of Leon[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mGlobal Event Center at WinStar World Casino and Resort[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mThackerville, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m12/31/69[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mP!nk[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mRod Laver Arena[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mMelbourne, Australia[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m12/31/69[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mImagine Dragons[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mEvolve World Tour[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mMoscow, Russia[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m12/31/1969[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mBeyonce[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mMercedes-Benz Stadium[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mAtlanta, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m08/26/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mGwen Stefani[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mPlanet Hollywood Resort and Casino[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mLas Vegas, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m12/27/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mCher[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mBijou Theatre Connecticut[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mBridgeport, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m09/16/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m
