@@ -134,7 +134,7 @@ function concertThis() {
                 chalk.magenta.bold("\nConcert Date: ") + moment(convertedDate).format("MM/DD/YYYY") +
                 chalk.magenta.bold("\n---------------------------------------------")
     
-            fs.appendFile("log.txt", event, function (err) {
+            fs.appendFile("log.txt", event, "utf8", function (err) {
                 if (err) throw err;
                 console.log(event);
                 console.log(chalk.blueBright("This has been logged!"));

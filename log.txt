@@ -142,4 +142,57 @@
 [35m[1mConcert Venue: [22m[39mBijou Theatre Connecticut[35m[1m[22m[39m
 [35m[1mLocation: [22m[39mBridgeport, United States[35m[1m[22m[39m
 [35m[1mConcert Date: [22m[39m09/16/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mCarrie Underwood[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mTuckerville Festival[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mEnschede, Netherlands[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m09/01/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mCarrie Underwood[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mTuckerville Festival[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mEnschede, Netherlands[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m09/01/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[36m[1m---------------Movie-This------------------[22m[39m[36m[1m[22m[39m
+[36m[1mMovie Title: [22m[39mSucker Punch[36m[1m[22m[39m
+[36m[1mYear of release: [22m[39m2011[36m[1m[22m[39m
+[36m[1mIMDB Rating: [22m[39m6.1/10[36m[1m[22m[39m
+[36m[1mRotten Tomatoes Score: [22m[39m23%[36m[1m[22m[39m
+[36m[1mThis film was released in the following Countries: [22m[39mUSA, Canada[36m[1m[22m[39m
+[36m[1mThis film is available in the following Languages: [22m[39mEnglish, German[36m[1m[22m[39m
+[36m[1mMovie Summary: [22m[39mA young girl is institutionalized by her abusive stepfather, retreating to an alternative reality as a coping strategy, envisioning a plan to help her escape.[36m[1m[22m[39m
+[36m[1mStarring: [22m[39mEmily Browning, Abbie Cornish, Jena Malone, Vanessa Hudgens[36m[1m[22m[39m
+[36m[1m--------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mThe Cure[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mJust Like Heaven[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/938e9e7f3931aded8923a30ebc003167283fc759?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mKiss Me, Kiss Me, Kiss Me[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mCyndi Lauper[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mGirls Just Want to Have Fun[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/7a91e696b3f362ff96b3c9dfc3c6d4a34127459b?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mShe's So Unusual[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mCyndi Lauper[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mSunlight Supply Amphitheater[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mRidgefield, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m08/31/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[36m[1m---------------Movie-This------------------[22m[39m[36m[1m[22m[39m
+[36m[1mMovie Title: [22m[39mRed Dawn[36m[1m[22m[39m
+[36m[1mYear of release: [22m[39m2012[36m[1m[22m[39m
+[36m[1mIMDB Rating: [22m[39m5.4/10[36m[1m[22m[39m
+[36m[1mRotten Tomatoes Score: [22m[39m13%[36m[1m[22m[39m
+[36m[1mThis film was released in the following Countries: [22m[39mUSA[36m[1m[22m[39m
+[36m[1mThis film is available in the following Languages: [22m[39mEnglish, Korean[36m[1m[22m[39m
+[36m[1mMovie Summary: [22m[39mA group of teenagers look to save their town from an invasion of North Korean soldiers.[36m[1m[22m[39m
+[36m[1mStarring: [22m[39mChris Hemsworth, Josh Peck, Josh Hutcherson, Adrianne Palicki[36m[1m[22m[39m
+[36m[1m--------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mBackstreet Boys[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mDon't Go Breaking My Heart[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/34bed9f45b658ca1949015b6e9efd15cd7c7c089?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mDon't Go Breaking My Heart[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mHerbie Hancock[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mHollywood Bowl[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mLos Angeles, United States[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m09/30/2018[35m[1m[22m[39m
 [35m[1m---------------------------------------------[22m[39m
