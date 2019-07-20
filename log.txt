@@ -195,4 +195,38 @@
 [35m[1mConcert Venue: [22m[39mHollywood Bowl[35m[1m[22m[39m
 [35m[1mLocation: [22m[39mLos Angeles, United States[35m[1m[22m[39m
 [35m[1mConcert Date: [22m[39m09/30/2018[35m[1m[22m[39m
+[35m[1m---------------------------------------------[22m[39m[36m[1m---------------Movie-This------------------[22m[39m[36m[1m[22m[39m
+[36m[1mMovie Title: [22m[39mThe Matrix[36m[1m[22m[39m
+[36m[1mYear of release: [22m[39m1999[36m[1m[22m[39m
+[36m[1mIMDB Rating: [22m[39m8.7/10[36m[1m[22m[39m
+[36m[1mRotten Tomatoes Score: [22m[39m88%[36m[1m[22m[39m
+[36m[1mThis film was released in the following Countries: [22m[39mUSA[36m[1m[22m[39m
+[36m[1mThis film is available in the following Languages: [22m[39mEnglish[36m[1m[22m[39m
+[36m[1mMovie Summary: [22m[39mA computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.[36m[1m[22m[39m
+[36m[1mStarring: [22m[39mKeanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving[36m[1m[22m[39m
+[36m[1m--------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mDanny Antill[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mMedley 1: 1) Come, now is the time to worship 2) Majesty 3) There is none like You 4) Lord I lift Your name on high 5) Shout to the Lord 6) All heaven declares 7) Power of love[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/2b441854c850021ea2230a0e48c33caa3162de58?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mPiano Instrumental: 50 Favourite Praise & Worship Songs[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mCartel[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mThe Perfect Mistake[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mnull[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mCycles[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mP!nk[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mWhat About Us[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/b97d90c4adf9386281985180edf7c7940e8908cb?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mBeautiful Trauma[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[33m[1m-------------Spotify-This-Song---------------[22m[39m[33m[1m[22m[39m
+[33m[1mArtist(s):    [22m[39mBackstreet Boys[33m[1m[22m[39m
+[33m[1mSong Title:    [22m[39mI Want It That Way[33m[1m[22m[39m
+[33m[1mPreview Link: [22m[39mhttps://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=73c32e50241d48c6acbf182a7d421d20[33m[1m[22m[39m
+[33m[1mAlbum:        [22m[39mThe Hits--Chapter One[33m[1m[22m[39m
+[33m[1m---------------------------------------------[22m[39m[35m[1m---------------Concert-This------------------[22m[39m[35m[1m[22m[39m
+[35m[1mBand Name: [22m[39mP!nk[35m[1m[22m[39m
+[35m[1mConcert Venue: [22m[39mCommerzbank-Arena[35m[1m[22m[39m
+[35m[1mLocation: [22m[39mFrankfurt Am Main, Germany[35m[1m[22m[39m
+[35m[1mConcert Date: [22m[39m07/22/2019[35m[1m[22m[39m
 [35m[1m---------------------------------------------[22m[39m
